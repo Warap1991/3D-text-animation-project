@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Animated Name</title>
+    <style>
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-top: 100px;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            flex-direction: column;
+            flood-color: blue;
+            flex-wrap: wrap;
+        }
+        ul li{
+            font-size: 80px;
+            color: #17d93b;
+            text-shadow: #fff 0.006em 0.006em 0.007em,
+                            #9c9c9c 1px 1px 1px,
+                            #9c9c9c 1px 2px 1px,
+                            #9c9c9c 1px 3px 1px,
+                            #9c9c9c 1px 4px 1px,
+                            #9c9c9c 1px 5px 1px,
+                            #9c9c9c 1px 6px 1px,
+                            #9c9c9c 1px 7px 1px,
+                            #9c9c9c 1px 8px 1px,
+                            #9c9c9c 1px 9px 1px,
+                            #9c9c9c 1px 10px 1px,
+                            #9c9c9c 1px 11px 1px,
+                            #9c9c9c 1px 12px 1px,
+                            rgba(16,16,16,0.4) 1px 18px 6px,
+                            rgba(16,16,16,0.4) 1px 22px 10px,
+                            rgba(16,16,16,0.4) 1px 26px 35px,
+                            rgba(16,16,16,0.4) 1px 30px 65px,
+                           #fff -0.5em -0.1em 100px
+            ;
+            animation: anime 1s infinite ease-in-out;
+            animation-delay: calc(.1s * var(--i));
+        }
+        @keyframes anime{
+            0%, 100%{
+                margin-top: 0;
+                text-shadow: #fff 0.006em 0.006em 0.007em,
+                            #9c9c9c 1px 1px 1px,
+                            #9c9c9c 1px 2px 1px,
+                            #9c9c9c 1px 3px 1px,
+                            #9c9c9c 1px 4px 1px,
+                            #9c9c9c 1px 5px 1px,
+                            #9c9c9c 1px 6px 1px,
+                            #9c9c9c 1px 7px 1px,
+                            #9c9c9c 1px 8px 1px,
+                            #9c9c9c 1px 9px 1px,
+                            #9c9c9c 1px 10px 1px,
+                            #9c9c9c 1px 11px 1px,
+                            #9c9c9c 1px 12px 1px,
+                            rgba(16,16,16,0.4) 1px 18px 6px,
+                            rgba(16,16,16,0.4) 1px 22px 10px,
+                            rgba(16,16,16,0.4) 1px 26px 35px,
+                            rgba(16,16,16,0.4) 1px 30px 65px,
+                           #fff -0.5em -0.1em 100px;
+            }
+            50%{
+                margin-top: -20px   ;
+                text-shadow: #fff 0.006em 0.006em 0.007em,
+                            #9c9c9c 1px 1px 1px,
+                            #9c9c9c 1px 2px 1px,
+                            #9c9c9c 1px 3px 1px,
+                            #9c9c9c 1px 4px 1px,
+                            #9c9c9c 1px 5px 1px,
+                            #9c9c9c 1px 6px 1px,
+                            #9c9c9c 1px 7px 1px,
+                            #9c9c9c 1px 8px 1px,
+                            #9c9c9c 1px 9px 1px,
+                            #9c9c9c 1px 10px 1px,
+                            #9c9c9c 1px 11px 1px,
+                            #9c9c9c 1px 12px 1px,
+                            rgba(16,16,16,0.4) 1px 38px 26px,
+                            rgba(16,16,16,0.4) 1px 42px 30px,
+                            rgba(16,16,16,0.4) 1px 46px 65px,
+                            rgba(16,16,16,0.4) 1px 50px 95px,
+                           #fff -0.5em -0.1em 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <ul>
+            <li style="--i:1">W</li>
+            <li style="--i:2">a</li>
+            <li style="--i:3">r</li>
+            <li style="--i:4">a</li>
+            <li style="--i:5">p</li>
+            <li style="--i:6">i</li>
+            <li style="--i:7">s</li>
+            <li style="--i:8">s</li>
+            <li style="--i:9">e</li>
+        </ul>
+        <ul>
+            <li style="--i:1">T</li>
+            <li style="--i:2">C</li>
+            <li style="--i:3">H</li>
+            <li style="--i:4">A</li>
+            <li style="--i:5">M</li>
+            <li style="--i:6">A</li>
+            <li style="--i:7">S</li>
+            <li style="--i:8">S</li>
+            <li style="--i:9">E</li>
+        </ul>
+    </section>
+</body>
+</html>
